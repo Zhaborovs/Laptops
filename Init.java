@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class Init {
     public static void main(String[] args) {
-        Set<Laptop> laptops = new HashSet<>();`
+        Set<Laptop> laptops = new HashSet<>();
         laptops.add(new Laptop("Dell", 16, 512, "Windows", "Black"));
         laptops.add(new Laptop("Dell", 8, 512, "Windows", "Black"));
         laptops.add(new Laptop("Apple", 8, 256, "MacOS", "Gray"));
